@@ -324,22 +324,25 @@ input{
         width:90%;
         margin:0 auto;
         line-height: 3rem;
+         margin-top:-60px;
+        text-align: none;
     }
 
     .screen{
         margin:0 auto;
-width:120%;
+        width:120%;
 
-        transform: scale(1.9);
+        transform: scaleX(0.1);
     }
 
     .desc h1{
         text-align: center;
         
     }
-    .desc{
-        margin-top:-60px;
-        text-align: none;
+    .desc p{
+       padding:10px;
+       width:90%;
+    margin: auto;
     }
 }
 
